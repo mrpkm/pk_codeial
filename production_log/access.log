@@ -182,3 +182,10 @@
 [0mGET /users/sign-in [32m200[0m 7.125 ms - 1468[0m
 [0mPOST /users/create-session [36m302[0m 370.602 ms - 46[0m
 [0mGET / [32m200[0m 1505.143 ms - 3719[0m
+[0mGET / [32m200[0m 617.725 ms - 2187[0m
+[0mGET /users/sign-up [32m200[0m 31.362 ms - 1462[0m
+[0mGET /users/sign-in [32m200[0m 7.346 ms - 1468[0m
+[0mPOST /users/create-session [36m302[0m 369.054 ms - 46[0m
+[0mGET / [32m200[0m 1237.038 ms - 3719[0m
+[0mGET / [32m200[0m 1464.588 ms - 3510[0m
+[0mGET / [36m304[0m 1264.884 ms - -[0m
