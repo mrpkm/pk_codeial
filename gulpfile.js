@@ -47,19 +47,19 @@ gulp.task('css', function(done){
     done();
 });
 
-gulp.task('images', function(done){
-    console.log('compressing images...');
-    gulp.src('./assets/**/*.+(png|jpg|gif|svg|jpeg|ico)')
-    .pipe(imagemin())
-    .pipe(rev())
-    .pipe(gulp.dest('./public/assets'))
-    .pipe(rev.manifest('public/assets/rev-manifest.json',{
-        base: './public/assets',
-        merge: true
-    }))
-    .pipe(gulp.dest('./public/assets'));
-    done();
-});
+// gulp.task('images', function(done){
+//     console.log('compressing images...');
+//     gulp.src('./assets/**/*.+(png|jpg|gif|svg|jpeg|ico)')
+//     .pipe(imagemin())
+//     .pipe(rev())
+//     .pipe(gulp.dest('./public/assets'))
+//     .pipe(rev.manifest('public/assets/rev-manifest.json',{
+//         base: './public/assets',
+//         merge: true
+//     }))
+//     .pipe(gulp.dest('./public/assets'));
+//     done();
+// });
 
 
 // empty the public/assets directory
@@ -68,7 +68,7 @@ gulp.task('clean:assets', function(done){
     done();
 });
 
-gulp.task('build', gulp.series('clean:assets', 'css', 'js', 'images'), function(done){
+gulp.task('build', gulp.series('clean:assets', 'css', 'js'), function(done){
     console.log('Building assets');
     done();
 });

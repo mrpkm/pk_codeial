@@ -169,3 +169,9 @@
 ::1 - - [12/May/2023:04:25:20 +0000] "POST /likes/toggle/?id=645dbab916a099cf1602e682&type=Comment HTTP/1.1" 200 57 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 ::1 - - [12/May/2023:04:25:20 +0000] "POST /likes/toggle/?id=645dbab916a099cf1602e682&type=Comment HTTP/1.1" 200 58 "http://localhost:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
 ::1 - - [12/May/2023:04:25:30 +0000] "GET / HTTP/1.1" 200 5977 "http://localhost:8000/users/profile/645b7c5907dcd5f5769f7466" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+[0mGET / [32m200[0m 386.185 ms - 3235[0m
+[0mGET /favicon.ico [33m404[0m 13.372 ms - 150[0m
+[0mGET /users/sign-in [32m200[0m 6.511 ms - 1468[0m
+[0mGET /forgot/get-link-page [32m200[0m 9.133 ms - 1214[0m
+[0mPOST /forgot/send-link [36m302[0m 113.792 ms - 72[0m
+[0mGET /users/sign-in [36m304[0m 4.025 ms - -[0m
