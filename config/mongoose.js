@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const env = require('./environment');
 mongoose.set("strictQuery", true);
-mongoose.connect(`mongodb://127.0.0.1/${env.db}`);
+mongoose.connect('mongodb+srv://mrpk8065:123654@cluster0.hjbrew6.mongodb.net/pk_codeial?retryWrites=true&w=majority');
 
 const db = mongoose.connection;
 

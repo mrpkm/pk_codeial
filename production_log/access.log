@@ -175,3 +175,10 @@
 [0mGET /forgot/get-link-page [32m200[0m 9.133 ms - 1214[0m
 [0mPOST /forgot/send-link [36m302[0m 113.792 ms - 72[0m
 [0mGET /users/sign-in [36m304[0m 4.025 ms - -[0m
+[0mGET / [32m200[0m 732.702 ms - 2104[0m
+[0mGET /favicon.ico [33m404[0m 33.755 ms - 150[0m
+[0mGET /users/sign-up [32m200[0m 6.091 ms - 1462[0m
+[0mPOST /users/create [36m302[0m 770.098 ms - 72[0m
+[0mGET /users/sign-in [32m200[0m 7.125 ms - 1468[0m
+[0mPOST /users/create-session [36m302[0m 370.602 ms - 46[0m
+[0mGET / [32m200[0m 1505.143 ms - 3719[0m
